@@ -50,7 +50,7 @@ public class Lab2OX {
 
                 board[row - 1][col - 1] = turn.toUpperCase();
                 checkWin();
-//                nextTurn();
+                nextTurn();
 
             } else {
 
@@ -200,7 +200,6 @@ public class Lab2OX {
             project.show();
             project.showTurn(); 
             project.inputRowAndColumn();
-            project.nextTurn();
             
         }
         
