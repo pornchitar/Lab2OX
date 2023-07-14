@@ -198,6 +198,8 @@ public class Lab2OX {
         project.turn = "X";
         while (project.play) {
             project.show();
+            project.showTurn(); 
+            project.inputRowAndColumn();
             
             
         }
