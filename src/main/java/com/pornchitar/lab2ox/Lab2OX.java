@@ -188,12 +188,6 @@ public class Lab2OX {
 
     }
 
-    public void playGame() {
-        show();
-        showTurn();
-        inputRowAndColumn();
-
-    }
 
     public static void main(String[] args) {
 
@@ -203,7 +197,10 @@ public class Lab2OX {
 
         project.turn = "X";
         while (project.play) {
-            project.playGame();
+            project.show();
+            
+            
         }
+        
     }
 }
